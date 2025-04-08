@@ -10,13 +10,10 @@ from config import env
 
 
 PROMPT_TEMPLATE = """"
-You are a helpful assistant. Use the following context to answer the question.
+You are a helpful assistant and have access to an updated knowledge base. 
+Use the below context provided to answer the question.
 
 Context: {context}
-
-Question: {question}
-
-Answer:
 """
 
 
@@ -39,12 +36,13 @@ def get_context(query):
 
 def get_answer(context, query, similarity_search):
     prompt_template = ChatPromptTemplate.from_template(PROMPT_TEMPLATE)
-    prompt = prompt_template.format(question=query, context=context)
+    prompt = prompt_template.format(context=context)
+    messages = [{"role": "assistant", "content": prompt}, {"role": "user", "content": query}]
 
     model = ChatOpenAI(
         openai_api_key=env.openai_api_key
     )
-    response = model.invoke(prompt)
+    response = model.invoke(messages)
     sources = [docs.metadata.get("source") for docs, _score in similarity_search]
     formatted_response = f"Answer: {response.content}\n\nSources:\n" + "\n".join(sources)
     return formatted_response
