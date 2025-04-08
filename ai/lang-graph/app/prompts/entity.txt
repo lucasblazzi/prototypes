@@ -1,0 +1,5 @@
+Extract all the entities (Person, Organization, Technology, Feature) from the following text. Provide the result as a comma-separated list.
+
+Text: {text}
+
+Entities:

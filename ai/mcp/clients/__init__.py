@@ -1,0 +1,33 @@
+ChatCompletion(
+    id='chatcmpl-BJNWv7IjbhajFDCjckfTeU8r4TTl3', 
+    choices=[
+        Choice(
+            finish_reason='tool_calls', 
+            index=0, 
+            logprobs=None, 
+            message=ChatCompletionMessage(
+                content=None, 
+                refusal=None, 
+                role='assistant', 
+                annotations=[], 
+                audio=None, 
+                function_call=None, 
+                tool_calls=[
+                    ChatCompletionMessageToolCall(
+                        id='call_6AcDnM9N3DVgnfo5aWvEvG40', 
+                        function=Function(
+                            arguments='{"query":"calculate TWR based on GIPS"}', 
+                            name='fetch_context'
+                        ), 
+                        type='function'
+                    )
+                ]
+            )
+        )
+    ], 
+    created=1743958381, 
+    model='gpt-4o-mini-2024-07-18', 
+    object='chat.completion', 
+    service_tier='default', 
+    system_fingerprint='fp_b376dfbbd5', 
+    usage=CompletionUsage(completion_tokens=21, prompt_tokens=200, total_tokens=221, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0)))

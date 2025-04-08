@@ -1,0 +1,52 @@
+[
+    {
+        "account_id": "C001",
+        "asset": "AAPL",
+        "type": "BUY",
+        "date":"2024-01-01",
+        "quantity": 100,
+        "price": 175.50,
+        "notional": 17550,
+        "currency": "USD"
+    },
+    {
+        "account_id": "C001",
+        "asset": "GOOGL",
+        "type": "SELL",
+        "date": "2024-01-02",
+        "quantity": 50,
+        "price": 2800.00,
+        "notional": 140000.00,
+        "currency": "USD"
+    },
+    {
+        "account_id": "C001",
+        "asset": "TSLA",
+        "type": "BUY",
+        "date": "2024-01-03",
+        "quantity": 30,
+        "price": 720.00,
+        "notional": 21600.00,
+        "currency": "USD"
+    },
+    {
+        "account_id": "C001",
+        "asset": "MSFT",
+        "type": "SELL",
+        "date": "2024-01-03",
+        "quantity": 60,
+        "price": 320.25,
+        "notional": 19215.00,
+        "currency": "USD"
+    },
+    {
+        "account_id": "C001",
+        "asset": "AMZN",
+        "type": "BUY",
+        "date": "2024-01-03",
+        "quantity": 10,
+        "price": 3350.10,
+        "notional": 33501.00,
+        "currency": "USD"
+    }
+]

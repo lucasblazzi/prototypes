@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Debug",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "app.test",
+            "cwd": "C:/Users/User/Blazzi/Repositories/prototypes/ai/lang-graph",
+            "justMyCode": true
+        }
+    ]
+}

@@ -1,0 +1,5 @@
+Summarize the following text in a clear and concise way. Your summary should capture the key ideas, main arguments, and any actionable insights. Avoid fluff or repetition. Write in plain English so that someone who hasn’t read the post can understand the topic, its importance, and what was discussed. Highlight any steps, conclusions, or examples provided in the original text. Keep the summary under 200 words.
+
+Text: {text}
+
+Summary:

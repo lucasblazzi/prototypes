@@ -1,0 +1,44 @@
+[
+    {
+        "account_id": "C001",
+        "asset": "AAPL",
+        "balance": 10000,
+        "date": "2023-12-31",
+        "currency": "USD"
+    },
+    {
+        "account_id": "C001",
+        "asset": "GOOGL",
+        "balance": 110000,
+        "date": "2023-12-31",
+        "currency": "USD"
+    },
+    {
+        "account_id": "C001",
+        "asset": "MSFT",
+        "balance": 20000,
+        "date": "2023-12-31",
+        "currency": "USD"
+    },
+    {
+        "account_id": "C001",
+        "asset": "AAPL",
+        "balance": 22250,
+        "date": "2024-01-01",
+        "currency": "USD"
+    },
+    {
+        "account_id": "C001",
+        "asset": "GOOGL",
+        "balance": 116000,
+        "date": "2024-01-01",
+        "currency": "USD"
+    },
+    {
+        "account_id": "C001",
+        "asset": "MSFT",
+        "balance": 21000,
+        "date": "2024-01-01",
+        "currency": "USD"
+    }
+]
