@@ -1,0 +1,3143 @@
+{
+    "modelSummaries": [
+        {
+            "batchSupported": {
+                "baseModelSupported": false,
+                "crossRegionSupported": false,
+                "customModelSupported": false
+            },
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": false
+            },
+            "featuresSupported": {
+                "promptOptimization": false
+            },
+            "guardrailsSupported": true,
+            "inferenceTypesSupported": [
+                "INFERENCE_PROFILE"
+            ],
+            "inputModalities": [
+                "TEXT",
+                "VIDEO"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": false
+            },
+            "latencyOptimizationSupported": false,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/twelvelabs.pegasus-1-2-v1:0",
+            "modelFamily": "Pegasus",
+            "modelId": "twelvelabs.pegasus-1-2-v1:0",
+            "modelLifecycle": {
+                "status": "ACTIVE"
+            },
+            "modelName": "Pegasus v1.2",
+            "outputModalities": [
+                "TEXT"
+            ],
+            "providerName": "TwelveLabs",
+            "responseStreamingSupported": true
+        },
+        {
+            "batchSupported": {
+                "baseModelSupported": false,
+                "crossRegionSupported": false,
+                "customModelSupported": false
+            },
+            "consoleIDEMetadata": null,
+            "converse": {
+                "additionalRequestFieldsSchema": "{\"topK\":{\"type\":\"number\",\"default\":250,\"minimum\":0,\"maximum\":500},\"reasoningConfig\":{\"enabled\":{\"type\":\"boolean\",\"default\":false},\"budgetTokens\":{\"type\":\"integer\",\"default\":2048,\"minimum\":1024,\"maximum\":63999}}}",
+                "maxTokensDefault": 1024,
+                "maxTokensMaximum": 32000,
+                "reasoningSupported": {
+                    "embedded": false
+                },
+                "stopSequencesDefault": null,
+                "systemRoleSupported": true,
+                "userDocumentTypesSupported": null,
+                "userImageTypesSupported": [
+                    "jpeg",
+                    "png",
+                    "gif",
+                    "webp"
+                ],
+                "userVideoTypesSupported": null
+            },
+            "customizationsSupported": [],
+            "description": {
+                "fullDescription": "Claude Opus 4.1 is Anthropic’s most intelligent model and an industry leader for coding and agent capabilities, especially agentic search. It excels for customers needing frontier intelligence: Advanced coding: Independently plan and execute complex development tasks end-to-end. It adapts to your style, thoughtfully plans and pivots, and maintains high code quality throughout. Long-horizon tasks and complex problem solving (virtual collaborator): Unlock new use cases involving long-horizon tasks that require memory, sustained reasoning, and long chains of actions. AI agents: Enable agents to tackle complex, multi-step tasks that require peak accuracy. Agentic search and research: Connect to multiple data sources to synthesize comprehensive insights across repositories. Content creation: Create human-quality content with natural prose. Produce long-form creative content, technical documentation, marketing copy, and frontend design mockups. Memory and context management: Incorporates memory capabilities that allow it to effectively summarize and reference previous interactions.",
+                "invokeExample": "{\\n\"modelId\": \"anthropic.claude-opus-4-1-20250805-v1:0\",\\n\"contentType\": \"application/json\",\\n\"accept\": \"application/json\",\\n\"body\": {\\n\"anthropic_version\": \"bedrock-2023-05-31\",\\n\"max_tokens\": 200,\\n\"messages\": [\\n{\\n\"role\": \"user\",\\n\"content\": [\\n{\\n\"type\": \"image\",\\n\"source\": {\\n\"type\": \"base64\",\\n\"media_type\": \"image/jpeg\",\\n\"data\": \"iVBORw...\"\\n}\\n},\\n{\\n\"type\": \"text\",\\n\"text\": \"What's in this image?\"\\n}\\n]\\n}\\n]\\n}\\n}",
+                "maxContextWindow": "200k",
+                "modelAttributes": "Hybrid reasoning, extended thinking, efficient code generation, enhanced text generation, agentic search, efficient research, computer use, tool use, real-time support, task efficiency, text and image inputs, steering, memory.",
+                "policy": "Refer to EULA above",
+                "releaseDate": "2025-08-05T07:00:00Z",
+                "shortDescription": "The next generation of Anthropic’s most powerful model yet, Claude Opus 4.1 is an industry leader for coding. It delivers sustained performance on long-running tasks that require focused effort and thousands of steps, significantly expanding what AI agents can solve. Claude Opus 4.1 is ideal for powering frontier agent products and features.",
+                "supportedFormats": null,
+                "supportedLanguages": "English, French, Modern Standard Arabic, Mandarin Chinese, Hindi, Spanish, Portuguese, Korean, Japanese, German, Russian, Polish, Other languages.",
+                "supportedUseCases": "Complex agentic systems, multi-agent orchestration, ai agents, agentic search, in-depth research, advanced coding, extended coding projects, agentic search with reasoning and synthesis, long-horizon tasks, complex problem solving, cross-functional workflow orchestration, long-form creative content generation, autonomous legacy codebase refactoring, end-to-end full-stack development, frontend design & development, computer use and vision applications, visual analysis, document processing, multi-app environments, memory and context management",
+                "unsupportedUseCases": null,
+                "version": "v1"
+            },
+            "explicitPromptCaching": {
+                "isSupported": true
+            },
+            "featuresSupported": {
+                "promptOptimization": false
+            },
+            "guardrailsSupported": true,
+            "inferenceTypesSupported": [
+                "INFERENCE_PROFILE"
+            ],
+            "inputModalities": [
+                "TEXT",
+                "IMAGE"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": false
+            },
+            "latencyOptimizationSupported": false,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-opus-4-1-20250805-v1:0",
+            "modelFamily": "Claude 4.1",
+            "modelId": "anthropic.claude-opus-4-1-20250805-v1:0",
+            "modelLifecycle": {
+                "status": "ACTIVE"
+            },
+            "modelName": "Claude Opus 4.1",
+            "outputModalities": [
+                "TEXT"
+            ],
+            "providerName": "Anthropic",
+            "responseStreamingSupported": true
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": false
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": true,
+            "inferenceTypesSupported": [
+                "ON_DEMAND"
+            ],
+            "inputModalities": [
+                "TEXT"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": false
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/amazon.titan-tg1-large",
+            "modelFamily": null,
+            "modelId": "amazon.titan-tg1-large",
+            "modelLifecycle": {
+                "status": "ACTIVE"
+            },
+            "modelName": "Titan Text Large",
+            "outputModalities": [
+                "TEXT"
+            ],
+            "providerName": "Amazon",
+            "responseStreamingSupported": true
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [
+                "FINE_TUNING"
+            ],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": false
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": true,
+            "inferenceTypesSupported": [
+                "PROVISIONED"
+            ],
+            "inputModalities": [
+                "TEXT",
+                "IMAGE"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": false
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/amazon.titan-image-generator-v1:0",
+            "modelFamily": null,
+            "modelId": "amazon.titan-image-generator-v1:0",
+            "modelLifecycle": {
+                "status": "ACTIVE"
+            },
+            "modelName": "Titan Image Generator G1",
+            "outputModalities": [
+                "IMAGE"
+            ],
+            "providerName": "Amazon",
+            "responseStreamingSupported": null
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": false
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": true,
+            "inferenceTypesSupported": [
+                "ON_DEMAND"
+            ],
+            "inputModalities": [
+                "TEXT",
+                "IMAGE"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": false
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/amazon.titan-image-generator-v1",
+            "modelFamily": null,
+            "modelId": "amazon.titan-image-generator-v1",
+            "modelLifecycle": {
+                "status": "ACTIVE"
+            },
+            "modelName": "Titan Image Generator G1",
+            "outputModalities": [
+                "IMAGE"
+            ],
+            "providerName": "Amazon",
+            "responseStreamingSupported": null
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [
+                "FINE_TUNING"
+            ],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": false
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": true,
+            "inferenceTypesSupported": [
+                "PROVISIONED",
+                "ON_DEMAND"
+            ],
+            "inputModalities": [
+                "TEXT",
+                "IMAGE"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": false
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/amazon.titan-image-generator-v2:0",
+            "modelFamily": null,
+            "modelId": "amazon.titan-image-generator-v2:0",
+            "modelLifecycle": {
+                "status": "ACTIVE"
+            },
+            "modelName": "Titan Image Generator G1 v2",
+            "outputModalities": [
+                "IMAGE"
+            ],
+            "providerName": "Amazon",
+            "responseStreamingSupported": null
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": true
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": true,
+            "inferenceTypesSupported": [],
+            "inputModalities": [
+                "TEXT",
+                "IMAGE",
+                "VIDEO"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": false
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/amazon.nova-premier-v1:0:8k",
+            "modelFamily": null,
+            "modelId": "amazon.nova-premier-v1:0:8k",
+            "modelLifecycle": {
+                "status": "ACTIVE"
+            },
+            "modelName": "Nova Premier",
+            "outputModalities": [
+                "TEXT"
+            ],
+            "providerName": "Amazon",
+            "responseStreamingSupported": true
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": true
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": true,
+            "inferenceTypesSupported": [],
+            "inputModalities": [
+                "TEXT",
+                "IMAGE",
+                "VIDEO"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": false
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/amazon.nova-premier-v1:0:20k",
+            "modelFamily": null,
+            "modelId": "amazon.nova-premier-v1:0:20k",
+            "modelLifecycle": {
+                "status": "ACTIVE"
+            },
+            "modelName": "Nova Premier",
+            "outputModalities": [
+                "TEXT"
+            ],
+            "providerName": "Amazon",
+            "responseStreamingSupported": true
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": true
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": true,
+            "inferenceTypesSupported": [],
+            "inputModalities": [
+                "TEXT",
+                "IMAGE",
+                "VIDEO"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": false
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/amazon.nova-premier-v1:0:1000k",
+            "modelFamily": null,
+            "modelId": "amazon.nova-premier-v1:0:1000k",
+            "modelLifecycle": {
+                "status": "ACTIVE"
+            },
+            "modelName": "Nova Premier",
+            "outputModalities": [
+                "TEXT"
+            ],
+            "providerName": "Amazon",
+            "responseStreamingSupported": true
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": true
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": true,
+            "inferenceTypesSupported": [],
+            "inputModalities": [
+                "TEXT",
+                "IMAGE",
+                "VIDEO"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": false
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/amazon.nova-premier-v1:0:mm",
+            "modelFamily": null,
+            "modelId": "amazon.nova-premier-v1:0:mm",
+            "modelLifecycle": {
+                "status": "ACTIVE"
+            },
+            "modelName": "Nova Premier",
+            "outputModalities": [
+                "TEXT"
+            ],
+            "providerName": "Amazon",
+            "responseStreamingSupported": true
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": true
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": true,
+            "inferenceTypesSupported": [
+                "INFERENCE_PROFILE"
+            ],
+            "inputModalities": [
+                "TEXT",
+                "IMAGE",
+                "VIDEO"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": false
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/amazon.nova-premier-v1:0",
+            "modelFamily": null,
+            "modelId": "amazon.nova-premier-v1:0",
+            "modelLifecycle": {
+                "status": "ACTIVE"
+            },
+            "modelName": "Nova Premier",
+            "outputModalities": [
+                "TEXT"
+            ],
+            "providerName": "Amazon",
+            "responseStreamingSupported": true
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": false
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": true,
+            "inferenceTypesSupported": [
+                "ON_DEMAND"
+            ],
+            "inputModalities": [
+                "TEXT"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": false
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/amazon.titan-text-premier-v1:0",
+            "modelFamily": null,
+            "modelId": "amazon.titan-text-premier-v1:0",
+            "modelLifecycle": {
+                "status": "ACTIVE"
+            },
+            "modelName": "Titan Text G1 - Premier",
+            "outputModalities": [
+                "TEXT"
+            ],
+            "providerName": "Amazon",
+            "responseStreamingSupported": true
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": true
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": true,
+            "inferenceTypesSupported": [
+                "PROVISIONED"
+            ],
+            "inputModalities": [
+                "TEXT",
+                "IMAGE",
+                "VIDEO"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": false
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/amazon.nova-pro-v1:0:24k",
+            "modelFamily": null,
+            "modelId": "amazon.nova-pro-v1:0:24k",
+            "modelLifecycle": {
+                "status": "ACTIVE"
+            },
+            "modelName": "Nova Pro",
+            "outputModalities": [
+                "TEXT"
+            ],
+            "providerName": "Amazon",
+            "responseStreamingSupported": true
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [
+                "FINE_TUNING",
+                "DISTILLATION"
+            ],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": true
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": true,
+            "inferenceTypesSupported": [
+                "PROVISIONED"
+            ],
+            "inputModalities": [
+                "TEXT",
+                "IMAGE",
+                "VIDEO"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": false
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/amazon.nova-pro-v1:0:300k",
+            "modelFamily": null,
+            "modelId": "amazon.nova-pro-v1:0:300k",
+            "modelLifecycle": {
+                "status": "ACTIVE"
+            },
+            "modelName": "Nova Pro",
+            "outputModalities": [
+                "TEXT"
+            ],
+            "providerName": "Amazon",
+            "responseStreamingSupported": true
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": true
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": true,
+            "inferenceTypesSupported": [
+                "ON_DEMAND",
+                "INFERENCE_PROFILE"
+            ],
+            "inputModalities": [
+                "TEXT",
+                "IMAGE",
+                "VIDEO"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": true
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/amazon.nova-pro-v1:0",
+            "modelFamily": null,
+            "modelId": "amazon.nova-pro-v1:0",
+            "modelLifecycle": {
+                "status": "ACTIVE"
+            },
+            "modelName": "Nova Pro",
+            "outputModalities": [
+                "TEXT"
+            ],
+            "providerName": "Amazon",
+            "responseStreamingSupported": true
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": true
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": true,
+            "inferenceTypesSupported": [
+                "PROVISIONED"
+            ],
+            "inputModalities": [
+                "TEXT",
+                "IMAGE",
+                "VIDEO"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": false
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/amazon.nova-lite-v1:0:24k",
+            "modelFamily": null,
+            "modelId": "amazon.nova-lite-v1:0:24k",
+            "modelLifecycle": {
+                "status": "ACTIVE"
+            },
+            "modelName": "Nova Lite",
+            "outputModalities": [
+                "TEXT"
+            ],
+            "providerName": "Amazon",
+            "responseStreamingSupported": true
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [
+                "FINE_TUNING",
+                "DISTILLATION"
+            ],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": true
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": true,
+            "inferenceTypesSupported": [
+                "PROVISIONED"
+            ],
+            "inputModalities": [
+                "TEXT",
+                "IMAGE",
+                "VIDEO"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": false
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/amazon.nova-lite-v1:0:300k",
+            "modelFamily": null,
+            "modelId": "amazon.nova-lite-v1:0:300k",
+            "modelLifecycle": {
+                "status": "ACTIVE"
+            },
+            "modelName": "Nova Lite",
+            "outputModalities": [
+                "TEXT"
+            ],
+            "providerName": "Amazon",
+            "responseStreamingSupported": true
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": true
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": true,
+            "inferenceTypesSupported": [
+                "ON_DEMAND",
+                "INFERENCE_PROFILE"
+            ],
+            "inputModalities": [
+                "TEXT",
+                "IMAGE",
+                "VIDEO"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": true
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/amazon.nova-lite-v1:0",
+            "modelFamily": null,
+            "modelId": "amazon.nova-lite-v1:0",
+            "modelLifecycle": {
+                "status": "ACTIVE"
+            },
+            "modelName": "Nova Lite",
+            "outputModalities": [
+                "TEXT"
+            ],
+            "providerName": "Amazon",
+            "responseStreamingSupported": true
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [
+                "FINE_TUNING"
+            ],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": false
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": false,
+            "inferenceTypesSupported": [
+                "ON_DEMAND",
+                "PROVISIONED"
+            ],
+            "inputModalities": [
+                "TEXT",
+                "IMAGE"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": false
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/amazon.nova-canvas-v1:0",
+            "modelFamily": null,
+            "modelId": "amazon.nova-canvas-v1:0",
+            "modelLifecycle": {
+                "status": "ACTIVE"
+            },
+            "modelName": "Nova Canvas",
+            "outputModalities": [
+                "IMAGE"
+            ],
+            "providerName": "Amazon",
+            "responseStreamingSupported": false
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": false
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": false,
+            "inferenceTypesSupported": [
+                "ON_DEMAND"
+            ],
+            "inputModalities": [
+                "TEXT",
+                "IMAGE"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": false
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/amazon.nova-reel-v1:0",
+            "modelFamily": null,
+            "modelId": "amazon.nova-reel-v1:0",
+            "modelLifecycle": {
+                "status": "ACTIVE"
+            },
+            "modelName": "Nova Reel",
+            "outputModalities": [
+                "VIDEO"
+            ],
+            "providerName": "Amazon",
+            "responseStreamingSupported": false
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": false
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": false,
+            "inferenceTypesSupported": [
+                "ON_DEMAND"
+            ],
+            "inputModalities": [
+                "TEXT",
+                "IMAGE"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": false
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/amazon.nova-reel-v1:1",
+            "modelFamily": null,
+            "modelId": "amazon.nova-reel-v1:1",
+            "modelLifecycle": {
+                "status": "ACTIVE"
+            },
+            "modelName": "Nova Reel",
+            "outputModalities": [
+                "VIDEO"
+            ],
+            "providerName": "Amazon",
+            "responseStreamingSupported": false
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": true
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": true,
+            "inferenceTypesSupported": [
+                "PROVISIONED"
+            ],
+            "inputModalities": [
+                "TEXT"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": false
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/amazon.nova-micro-v1:0:24k",
+            "modelFamily": null,
+            "modelId": "amazon.nova-micro-v1:0:24k",
+            "modelLifecycle": {
+                "status": "ACTIVE"
+            },
+            "modelName": "Nova Micro",
+            "outputModalities": [
+                "TEXT"
+            ],
+            "providerName": "Amazon",
+            "responseStreamingSupported": true
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [
+                "FINE_TUNING",
+                "DISTILLATION"
+            ],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": true
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": true,
+            "inferenceTypesSupported": [
+                "PROVISIONED"
+            ],
+            "inputModalities": [
+                "TEXT"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": false
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/amazon.nova-micro-v1:0:128k",
+            "modelFamily": null,
+            "modelId": "amazon.nova-micro-v1:0:128k",
+            "modelLifecycle": {
+                "status": "ACTIVE"
+            },
+            "modelName": "Nova Micro",
+            "outputModalities": [
+                "TEXT"
+            ],
+            "providerName": "Amazon",
+            "responseStreamingSupported": true
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": true
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": true,
+            "inferenceTypesSupported": [
+                "ON_DEMAND",
+                "INFERENCE_PROFILE"
+            ],
+            "inputModalities": [
+                "TEXT"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": false
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/amazon.nova-micro-v1:0",
+            "modelFamily": null,
+            "modelId": "amazon.nova-micro-v1:0",
+            "modelLifecycle": {
+                "status": "ACTIVE"
+            },
+            "modelName": "Nova Micro",
+            "outputModalities": [
+                "TEXT"
+            ],
+            "providerName": "Amazon",
+            "responseStreamingSupported": true
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": false
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": false,
+            "inferenceTypesSupported": [
+                "ON_DEMAND"
+            ],
+            "inputModalities": [
+                "SPEECH"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": false
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/amazon.nova-sonic-v1:0",
+            "modelFamily": null,
+            "modelId": "amazon.nova-sonic-v1:0",
+            "modelLifecycle": {
+                "status": "ACTIVE"
+            },
+            "modelName": "Nova Sonic",
+            "outputModalities": [
+                "SPEECH",
+                "TEXT"
+            ],
+            "providerName": "Amazon",
+            "responseStreamingSupported": true
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": false
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": false,
+            "inferenceTypesSupported": [
+                "ON_DEMAND"
+            ],
+            "inputModalities": [
+                "TEXT"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": false
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/amazon.titan-embed-g1-text-02",
+            "modelFamily": null,
+            "modelId": "amazon.titan-embed-g1-text-02",
+            "modelLifecycle": {
+                "status": "ACTIVE"
+            },
+            "modelName": "Titan Text Embeddings v2",
+            "outputModalities": [
+                "EMBEDDING"
+            ],
+            "providerName": "Amazon",
+            "responseStreamingSupported": null
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [
+                "FINE_TUNING",
+                "CONTINUED_PRE_TRAINING"
+            ],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": false
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": true,
+            "inferenceTypesSupported": [
+                "PROVISIONED"
+            ],
+            "inputModalities": [
+                "TEXT"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": false
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/amazon.titan-text-lite-v1:0:4k",
+            "modelFamily": null,
+            "modelId": "amazon.titan-text-lite-v1:0:4k",
+            "modelLifecycle": {
+                "status": "ACTIVE"
+            },
+            "modelName": "Titan Text G1 - Lite",
+            "outputModalities": [
+                "TEXT"
+            ],
+            "providerName": "Amazon",
+            "responseStreamingSupported": true
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": false
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": true,
+            "inferenceTypesSupported": [
+                "ON_DEMAND"
+            ],
+            "inputModalities": [
+                "TEXT"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": false
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/amazon.titan-text-lite-v1",
+            "modelFamily": null,
+            "modelId": "amazon.titan-text-lite-v1",
+            "modelLifecycle": {
+                "status": "ACTIVE"
+            },
+            "modelName": "Titan Text G1 - Lite",
+            "outputModalities": [
+                "TEXT"
+            ],
+            "providerName": "Amazon",
+            "responseStreamingSupported": true
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [
+                "FINE_TUNING",
+                "CONTINUED_PRE_TRAINING"
+            ],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": false
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": true,
+            "inferenceTypesSupported": [
+                "PROVISIONED"
+            ],
+            "inputModalities": [
+                "TEXT"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": false
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/amazon.titan-text-express-v1:0:8k",
+            "modelFamily": null,
+            "modelId": "amazon.titan-text-express-v1:0:8k",
+            "modelLifecycle": {
+                "status": "ACTIVE"
+            },
+            "modelName": "Titan Text G1 - Express",
+            "outputModalities": [
+                "TEXT"
+            ],
+            "providerName": "Amazon",
+            "responseStreamingSupported": true
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": false
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": true,
+            "inferenceTypesSupported": [
+                "ON_DEMAND"
+            ],
+            "inputModalities": [
+                "TEXT"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": false
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/amazon.titan-text-express-v1",
+            "modelFamily": null,
+            "modelId": "amazon.titan-text-express-v1",
+            "modelLifecycle": {
+                "status": "ACTIVE"
+            },
+            "modelName": "Titan Text G1 - Express",
+            "outputModalities": [
+                "TEXT"
+            ],
+            "providerName": "Amazon",
+            "responseStreamingSupported": true
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": false
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": false,
+            "inferenceTypesSupported": [
+                "PROVISIONED"
+            ],
+            "inputModalities": [
+                "TEXT"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": false
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/amazon.titan-embed-text-v1:2:8k",
+            "modelFamily": null,
+            "modelId": "amazon.titan-embed-text-v1:2:8k",
+            "modelLifecycle": {
+                "status": "ACTIVE"
+            },
+            "modelName": "Titan Embeddings G1 - Text",
+            "outputModalities": [
+                "EMBEDDING"
+            ],
+            "providerName": "Amazon",
+            "responseStreamingSupported": false
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": false
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": false,
+            "inferenceTypesSupported": [
+                "ON_DEMAND"
+            ],
+            "inputModalities": [
+                "TEXT"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": false
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/amazon.titan-embed-text-v1",
+            "modelFamily": null,
+            "modelId": "amazon.titan-embed-text-v1",
+            "modelLifecycle": {
+                "status": "ACTIVE"
+            },
+            "modelName": "Titan Embeddings G1 - Text",
+            "outputModalities": [
+                "EMBEDDING"
+            ],
+            "providerName": "Amazon",
+            "responseStreamingSupported": false
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": false
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": false,
+            "inferenceTypesSupported": [],
+            "inputModalities": [
+                "TEXT"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": false
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/amazon.titan-embed-text-v2:0:8k",
+            "modelFamily": null,
+            "modelId": "amazon.titan-embed-text-v2:0:8k",
+            "modelLifecycle": {
+                "status": "ACTIVE"
+            },
+            "modelName": "Titan Text Embeddings V2",
+            "outputModalities": [
+                "EMBEDDING"
+            ],
+            "providerName": "Amazon",
+            "responseStreamingSupported": false
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": false
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": false,
+            "inferenceTypesSupported": [
+                "ON_DEMAND"
+            ],
+            "inputModalities": [
+                "TEXT"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": false
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/amazon.titan-embed-text-v2:0",
+            "modelFamily": null,
+            "modelId": "amazon.titan-embed-text-v2:0",
+            "modelLifecycle": {
+                "status": "ACTIVE"
+            },
+            "modelName": "Titan Text Embeddings V2",
+            "outputModalities": [
+                "EMBEDDING"
+            ],
+            "providerName": "Amazon",
+            "responseStreamingSupported": false
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [
+                "FINE_TUNING"
+            ],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": false
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": false,
+            "inferenceTypesSupported": [
+                "PROVISIONED"
+            ],
+            "inputModalities": [
+                "TEXT",
+                "IMAGE"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": false
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/amazon.titan-embed-image-v1:0",
+            "modelFamily": null,
+            "modelId": "amazon.titan-embed-image-v1:0",
+            "modelLifecycle": {
+                "status": "ACTIVE"
+            },
+            "modelName": "Titan Multimodal Embeddings G1",
+            "outputModalities": [
+                "EMBEDDING"
+            ],
+            "providerName": "Amazon",
+            "responseStreamingSupported": null
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": false
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": false,
+            "inferenceTypesSupported": [
+                "ON_DEMAND"
+            ],
+            "inputModalities": [
+                "TEXT",
+                "IMAGE"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": false
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/amazon.titan-embed-image-v1",
+            "modelFamily": null,
+            "modelId": "amazon.titan-embed-image-v1",
+            "modelLifecycle": {
+                "status": "ACTIVE"
+            },
+            "modelName": "Titan Multimodal Embeddings G1",
+            "outputModalities": [
+                "EMBEDDING"
+            ],
+            "providerName": "Amazon",
+            "responseStreamingSupported": null
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": false
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": true,
+            "inferenceTypesSupported": [
+                "PROVISIONED"
+            ],
+            "inputModalities": [
+                "TEXT",
+                "IMAGE"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": false
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/stability.stable-diffusion-xl-v1:0",
+            "modelFamily": null,
+            "modelId": "stability.stable-diffusion-xl-v1:0",
+            "modelLifecycle": {
+                "status": "LEGACY"
+            },
+            "modelName": "SDXL 1.0",
+            "outputModalities": [
+                "IMAGE"
+            ],
+            "providerName": "Stability AI",
+            "responseStreamingSupported": null
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": false
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": true,
+            "inferenceTypesSupported": [
+                "ON_DEMAND"
+            ],
+            "inputModalities": [
+                "TEXT",
+                "IMAGE"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": false
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/stability.stable-diffusion-xl-v1",
+            "modelFamily": null,
+            "modelId": "stability.stable-diffusion-xl-v1",
+            "modelLifecycle": {
+                "status": "LEGACY"
+            },
+            "modelName": "SDXL 1.0",
+            "outputModalities": [
+                "IMAGE"
+            ],
+            "providerName": "Stability AI",
+            "responseStreamingSupported": null
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": false
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": true,
+            "inferenceTypesSupported": [
+                "ON_DEMAND"
+            ],
+            "inputModalities": [
+                "TEXT"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": false
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/ai21.jamba-instruct-v1:0",
+            "modelFamily": null,
+            "modelId": "ai21.jamba-instruct-v1:0",
+            "modelLifecycle": {
+                "status": "LEGACY"
+            },
+            "modelName": "Jamba-Instruct",
+            "outputModalities": [
+                "TEXT"
+            ],
+            "providerName": "AI21 Labs",
+            "responseStreamingSupported": true
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": false
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": true,
+            "inferenceTypesSupported": [
+                "ON_DEMAND"
+            ],
+            "inputModalities": [
+                "TEXT"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": false
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/ai21.jamba-1-5-large-v1:0",
+            "modelFamily": null,
+            "modelId": "ai21.jamba-1-5-large-v1:0",
+            "modelLifecycle": {
+                "status": "ACTIVE"
+            },
+            "modelName": "Jamba 1.5 Large",
+            "outputModalities": [
+                "TEXT"
+            ],
+            "providerName": "AI21 Labs",
+            "responseStreamingSupported": true
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": false
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": true,
+            "inferenceTypesSupported": [
+                "ON_DEMAND"
+            ],
+            "inputModalities": [
+                "TEXT"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": false
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/ai21.jamba-1-5-mini-v1:0",
+            "modelFamily": null,
+            "modelId": "ai21.jamba-1-5-mini-v1:0",
+            "modelLifecycle": {
+                "status": "ACTIVE"
+            },
+            "modelName": "Jamba 1.5 Mini",
+            "outputModalities": [
+                "TEXT"
+            ],
+            "providerName": "AI21 Labs",
+            "responseStreamingSupported": true
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": false
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": true,
+            "inferenceTypesSupported": [
+                "PROVISIONED"
+            ],
+            "inputModalities": [
+                "TEXT"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": false
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-instant-v1:2:100k",
+            "modelFamily": null,
+            "modelId": "anthropic.claude-instant-v1:2:100k",
+            "modelLifecycle": {
+                "status": "LEGACY"
+            },
+            "modelName": "Claude Instant",
+            "outputModalities": [
+                "TEXT"
+            ],
+            "providerName": "Anthropic",
+            "responseStreamingSupported": true
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": false
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": true,
+            "inferenceTypesSupported": [
+                "ON_DEMAND"
+            ],
+            "inputModalities": [
+                "TEXT"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": false
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-instant-v1",
+            "modelFamily": null,
+            "modelId": "anthropic.claude-instant-v1",
+            "modelLifecycle": {
+                "status": "LEGACY"
+            },
+            "modelName": "Claude Instant",
+            "outputModalities": [
+                "TEXT"
+            ],
+            "providerName": "Anthropic",
+            "responseStreamingSupported": true
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": false
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": true,
+            "inferenceTypesSupported": [
+                "PROVISIONED"
+            ],
+            "inputModalities": [
+                "TEXT"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": false
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-v2:0:18k",
+            "modelFamily": null,
+            "modelId": "anthropic.claude-v2:0:18k",
+            "modelLifecycle": {
+                "status": "LEGACY"
+            },
+            "modelName": "Claude",
+            "outputModalities": [
+                "TEXT"
+            ],
+            "providerName": "Anthropic",
+            "responseStreamingSupported": true
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": false
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": true,
+            "inferenceTypesSupported": [
+                "PROVISIONED"
+            ],
+            "inputModalities": [
+                "TEXT"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": false
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-v2:0:100k",
+            "modelFamily": null,
+            "modelId": "anthropic.claude-v2:0:100k",
+            "modelLifecycle": {
+                "status": "LEGACY"
+            },
+            "modelName": "Claude",
+            "outputModalities": [
+                "TEXT"
+            ],
+            "providerName": "Anthropic",
+            "responseStreamingSupported": true
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": false
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": true,
+            "inferenceTypesSupported": [
+                "PROVISIONED"
+            ],
+            "inputModalities": [
+                "TEXT"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": false
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-v2:1:18k",
+            "modelFamily": null,
+            "modelId": "anthropic.claude-v2:1:18k",
+            "modelLifecycle": {
+                "status": "LEGACY"
+            },
+            "modelName": "Claude",
+            "outputModalities": [
+                "TEXT"
+            ],
+            "providerName": "Anthropic",
+            "responseStreamingSupported": true
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": false
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": true,
+            "inferenceTypesSupported": [
+                "PROVISIONED"
+            ],
+            "inputModalities": [
+                "TEXT"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": false
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-v2:1:200k",
+            "modelFamily": null,
+            "modelId": "anthropic.claude-v2:1:200k",
+            "modelLifecycle": {
+                "status": "LEGACY"
+            },
+            "modelName": "Claude",
+            "outputModalities": [
+                "TEXT"
+            ],
+            "providerName": "Anthropic",
+            "responseStreamingSupported": true
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": false
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": true,
+            "inferenceTypesSupported": [
+                "ON_DEMAND"
+            ],
+            "inputModalities": [
+                "TEXT"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": false
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-v2:1",
+            "modelFamily": null,
+            "modelId": "anthropic.claude-v2:1",
+            "modelLifecycle": {
+                "status": "LEGACY"
+            },
+            "modelName": "Claude",
+            "outputModalities": [
+                "TEXT"
+            ],
+            "providerName": "Anthropic",
+            "responseStreamingSupported": true
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": false
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": true,
+            "inferenceTypesSupported": [
+                "ON_DEMAND"
+            ],
+            "inputModalities": [
+                "TEXT"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": false
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-v2",
+            "modelFamily": null,
+            "modelId": "anthropic.claude-v2",
+            "modelLifecycle": {
+                "status": "LEGACY"
+            },
+            "modelName": "Claude",
+            "outputModalities": [
+                "TEXT"
+            ],
+            "providerName": "Anthropic",
+            "responseStreamingSupported": true
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": false
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": true,
+            "inferenceTypesSupported": [
+                "PROVISIONED"
+            ],
+            "inputModalities": [
+                "TEXT",
+                "IMAGE"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": false
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0:28k",
+            "modelFamily": null,
+            "modelId": "anthropic.claude-3-sonnet-20240229-v1:0:28k",
+            "modelLifecycle": {
+                "status": "LEGACY"
+            },
+            "modelName": "Claude 3 Sonnet",
+            "outputModalities": [
+                "TEXT"
+            ],
+            "providerName": "Anthropic",
+            "responseStreamingSupported": true
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": false
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": true,
+            "inferenceTypesSupported": [
+                "PROVISIONED"
+            ],
+            "inputModalities": [
+                "TEXT",
+                "IMAGE"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": false
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0:200k",
+            "modelFamily": null,
+            "modelId": "anthropic.claude-3-sonnet-20240229-v1:0:200k",
+            "modelLifecycle": {
+                "status": "LEGACY"
+            },
+            "modelName": "Claude 3 Sonnet",
+            "outputModalities": [
+                "TEXT"
+            ],
+            "providerName": "Anthropic",
+            "responseStreamingSupported": true
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": false
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": true,
+            "inferenceTypesSupported": [
+                "ON_DEMAND"
+            ],
+            "inputModalities": [
+                "TEXT",
+                "IMAGE"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": false
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0",
+            "modelFamily": null,
+            "modelId": "anthropic.claude-3-sonnet-20240229-v1:0",
+            "modelLifecycle": {
+                "status": "LEGACY"
+            },
+            "modelName": "Claude 3 Sonnet",
+            "outputModalities": [
+                "TEXT"
+            ],
+            "providerName": "Anthropic",
+            "responseStreamingSupported": true
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": false
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": true,
+            "inferenceTypesSupported": [
+                "PROVISIONED"
+            ],
+            "inputModalities": [
+                "TEXT",
+                "IMAGE"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": false
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-haiku-20240307-v1:0:48k",
+            "modelFamily": null,
+            "modelId": "anthropic.claude-3-haiku-20240307-v1:0:48k",
+            "modelLifecycle": {
+                "status": "ACTIVE"
+            },
+            "modelName": "Claude 3 Haiku",
+            "outputModalities": [
+                "TEXT"
+            ],
+            "providerName": "Anthropic",
+            "responseStreamingSupported": true
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": false
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": true,
+            "inferenceTypesSupported": [
+                "PROVISIONED"
+            ],
+            "inputModalities": [
+                "TEXT",
+                "IMAGE"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": false
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-haiku-20240307-v1:0:200k",
+            "modelFamily": null,
+            "modelId": "anthropic.claude-3-haiku-20240307-v1:0:200k",
+            "modelLifecycle": {
+                "status": "ACTIVE"
+            },
+            "modelName": "Claude 3 Haiku",
+            "outputModalities": [
+                "TEXT"
+            ],
+            "providerName": "Anthropic",
+            "responseStreamingSupported": true
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": false
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": true,
+            "inferenceTypesSupported": [
+                "ON_DEMAND"
+            ],
+            "inputModalities": [
+                "TEXT",
+                "IMAGE"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": true
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-haiku-20240307-v1:0",
+            "modelFamily": null,
+            "modelId": "anthropic.claude-3-haiku-20240307-v1:0",
+            "modelLifecycle": {
+                "status": "ACTIVE"
+            },
+            "modelName": "Claude 3 Haiku",
+            "outputModalities": [
+                "TEXT"
+            ],
+            "providerName": "Anthropic",
+            "responseStreamingSupported": true
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": false
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": true,
+            "inferenceTypesSupported": [],
+            "inputModalities": [
+                "TEXT",
+                "IMAGE"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": false
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-opus-20240229-v1:0:12k",
+            "modelFamily": null,
+            "modelId": "anthropic.claude-3-opus-20240229-v1:0:12k",
+            "modelLifecycle": {
+                "status": "ACTIVE"
+            },
+            "modelName": "Claude 3 Opus",
+            "outputModalities": [
+                "TEXT"
+            ],
+            "providerName": "Anthropic",
+            "responseStreamingSupported": true
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": false
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": true,
+            "inferenceTypesSupported": [],
+            "inputModalities": [
+                "TEXT",
+                "IMAGE"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": false
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-opus-20240229-v1:0:28k",
+            "modelFamily": null,
+            "modelId": "anthropic.claude-3-opus-20240229-v1:0:28k",
+            "modelLifecycle": {
+                "status": "ACTIVE"
+            },
+            "modelName": "Claude 3 Opus",
+            "outputModalities": [
+                "TEXT"
+            ],
+            "providerName": "Anthropic",
+            "responseStreamingSupported": true
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": false
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": true,
+            "inferenceTypesSupported": [],
+            "inputModalities": [
+                "TEXT",
+                "IMAGE"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": false
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-opus-20240229-v1:0:200k",
+            "modelFamily": null,
+            "modelId": "anthropic.claude-3-opus-20240229-v1:0:200k",
+            "modelLifecycle": {
+                "status": "ACTIVE"
+            },
+            "modelName": "Claude 3 Opus",
+            "outputModalities": [
+                "TEXT"
+            ],
+            "providerName": "Anthropic",
+            "responseStreamingSupported": true
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": false
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": true,
+            "inferenceTypesSupported": [
+                "INFERENCE_PROFILE"
+            ],
+            "inputModalities": [
+                "TEXT",
+                "IMAGE"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": false
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-opus-20240229-v1:0",
+            "modelFamily": null,
+            "modelId": "anthropic.claude-3-opus-20240229-v1:0",
+            "modelLifecycle": {
+                "status": "ACTIVE"
+            },
+            "modelName": "Claude 3 Opus",
+            "outputModalities": [
+                "TEXT"
+            ],
+            "providerName": "Anthropic",
+            "responseStreamingSupported": true
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": false
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": true,
+            "inferenceTypesSupported": [
+                "ON_DEMAND",
+                "INFERENCE_PROFILE"
+            ],
+            "inputModalities": [
+                "TEXT",
+                "IMAGE"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": true
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-5-sonnet-20240620-v1:0",
+            "modelFamily": null,
+            "modelId": "anthropic.claude-3-5-sonnet-20240620-v1:0",
+            "modelLifecycle": {
+                "status": "ACTIVE"
+            },
+            "modelName": "Claude 3.5 Sonnet",
+            "outputModalities": [
+                "TEXT"
+            ],
+            "providerName": "Anthropic",
+            "responseStreamingSupported": true
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": false
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": true,
+            "inferenceTypesSupported": [
+                "INFERENCE_PROFILE"
+            ],
+            "inputModalities": [
+                "TEXT",
+                "IMAGE"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": true
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-5-sonnet-20241022-v2:0",
+            "modelFamily": null,
+            "modelId": "anthropic.claude-3-5-sonnet-20241022-v2:0",
+            "modelLifecycle": {
+                "status": "ACTIVE"
+            },
+            "modelName": "Claude 3.5 Sonnet v2",
+            "outputModalities": [
+                "TEXT"
+            ],
+            "providerName": "Anthropic",
+            "responseStreamingSupported": true
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": true
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": true,
+            "inferenceTypesSupported": [
+                "INFERENCE_PROFILE"
+            ],
+            "inputModalities": [
+                "TEXT",
+                "IMAGE"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": false
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-7-sonnet-20250219-v1:0",
+            "modelFamily": null,
+            "modelId": "anthropic.claude-3-7-sonnet-20250219-v1:0",
+            "modelLifecycle": {
+                "status": "ACTIVE"
+            },
+            "modelName": "Claude 3.7 Sonnet",
+            "outputModalities": [
+                "TEXT"
+            ],
+            "providerName": "Anthropic",
+            "responseStreamingSupported": true
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": true
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": true,
+            "inferenceTypesSupported": [
+                "INFERENCE_PROFILE"
+            ],
+            "inputModalities": [
+                "TEXT"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": true
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-5-haiku-20241022-v1:0",
+            "modelFamily": null,
+            "modelId": "anthropic.claude-3-5-haiku-20241022-v1:0",
+            "modelLifecycle": {
+                "status": "ACTIVE"
+            },
+            "modelName": "Claude 3.5 Haiku",
+            "outputModalities": [
+                "TEXT"
+            ],
+            "providerName": "Anthropic",
+            "responseStreamingSupported": true
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": true
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": true,
+            "inferenceTypesSupported": [
+                "INFERENCE_PROFILE"
+            ],
+            "inputModalities": [
+                "TEXT",
+                "IMAGE"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": false
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-opus-4-20250514-v1:0",
+            "modelFamily": null,
+            "modelId": "anthropic.claude-opus-4-20250514-v1:0",
+            "modelLifecycle": {
+                "status": "ACTIVE"
+            },
+            "modelName": "Claude Opus 4",
+            "outputModalities": [
+                "TEXT"
+            ],
+            "providerName": "Anthropic",
+            "responseStreamingSupported": true
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": true
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": true,
+            "inferenceTypesSupported": [
+                "INFERENCE_PROFILE"
+            ],
+            "inputModalities": [
+                "TEXT",
+                "IMAGE"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": false
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0",
+            "modelFamily": null,
+            "modelId": "anthropic.claude-sonnet-4-20250514-v1:0",
+            "modelLifecycle": {
+                "status": "ACTIVE"
+            },
+            "modelName": "Claude Sonnet 4",
+            "outputModalities": [
+                "TEXT"
+            ],
+            "providerName": "Anthropic",
+            "responseStreamingSupported": true
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": false
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": true,
+            "inferenceTypesSupported": [
+                "ON_DEMAND"
+            ],
+            "inputModalities": [
+                "TEXT"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": false
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/cohere.command-r-v1:0",
+            "modelFamily": null,
+            "modelId": "cohere.command-r-v1:0",
+            "modelLifecycle": {
+                "status": "ACTIVE"
+            },
+            "modelName": "Command R",
+            "outputModalities": [
+                "TEXT"
+            ],
+            "providerName": "Cohere",
+            "responseStreamingSupported": true
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": false
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": true,
+            "inferenceTypesSupported": [
+                "ON_DEMAND"
+            ],
+            "inputModalities": [
+                "TEXT"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": false
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/cohere.command-r-plus-v1:0",
+            "modelFamily": null,
+            "modelId": "cohere.command-r-plus-v1:0",
+            "modelLifecycle": {
+                "status": "ACTIVE"
+            },
+            "modelName": "Command R+",
+            "outputModalities": [
+                "TEXT"
+            ],
+            "providerName": "Cohere",
+            "responseStreamingSupported": true
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": false
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": false,
+            "inferenceTypesSupported": [
+                "PROVISIONED"
+            ],
+            "inputModalities": [
+                "TEXT"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": false
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/cohere.embed-english-v3:0:512",
+            "modelFamily": null,
+            "modelId": "cohere.embed-english-v3:0:512",
+            "modelLifecycle": {
+                "status": "ACTIVE"
+            },
+            "modelName": "Embed English",
+            "outputModalities": [
+                "EMBEDDING"
+            ],
+            "providerName": "Cohere",
+            "responseStreamingSupported": false
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": false
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": false,
+            "inferenceTypesSupported": [
+                "ON_DEMAND"
+            ],
+            "inputModalities": [
+                "TEXT"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": false
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/cohere.embed-english-v3",
+            "modelFamily": null,
+            "modelId": "cohere.embed-english-v3",
+            "modelLifecycle": {
+                "status": "ACTIVE"
+            },
+            "modelName": "Embed English",
+            "outputModalities": [
+                "EMBEDDING"
+            ],
+            "providerName": "Cohere",
+            "responseStreamingSupported": false
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": false
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": false,
+            "inferenceTypesSupported": [
+                "PROVISIONED"
+            ],
+            "inputModalities": [
+                "TEXT"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": false
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/cohere.embed-multilingual-v3:0:512",
+            "modelFamily": null,
+            "modelId": "cohere.embed-multilingual-v3:0:512",
+            "modelLifecycle": {
+                "status": "ACTIVE"
+            },
+            "modelName": "Embed Multilingual",
+            "outputModalities": [
+                "EMBEDDING"
+            ],
+            "providerName": "Cohere",
+            "responseStreamingSupported": false
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": false
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": false,
+            "inferenceTypesSupported": [
+                "ON_DEMAND"
+            ],
+            "inputModalities": [
+                "TEXT"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": false
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/cohere.embed-multilingual-v3",
+            "modelFamily": null,
+            "modelId": "cohere.embed-multilingual-v3",
+            "modelLifecycle": {
+                "status": "ACTIVE"
+            },
+            "modelName": "Embed Multilingual",
+            "outputModalities": [
+                "EMBEDDING"
+            ],
+            "providerName": "Cohere",
+            "responseStreamingSupported": false
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": false
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": true,
+            "inferenceTypesSupported": [
+                "INFERENCE_PROFILE"
+            ],
+            "inputModalities": [
+                "TEXT"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": false
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/deepseek.r1-v1:0",
+            "modelFamily": null,
+            "modelId": "deepseek.r1-v1:0",
+            "modelLifecycle": {
+                "status": "ACTIVE"
+            },
+            "modelName": "DeepSeek-R1",
+            "outputModalities": [
+                "TEXT"
+            ],
+            "providerName": "DeepSeek",
+            "responseStreamingSupported": true
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": false
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": true,
+            "inferenceTypesSupported": [
+                "ON_DEMAND"
+            ],
+            "inputModalities": [
+                "TEXT"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": false
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/meta.llama3-8b-instruct-v1:0",
+            "modelFamily": null,
+            "modelId": "meta.llama3-8b-instruct-v1:0",
+            "modelLifecycle": {
+                "status": "ACTIVE"
+            },
+            "modelName": "Llama 3 8B Instruct",
+            "outputModalities": [
+                "TEXT"
+            ],
+            "providerName": "Meta",
+            "responseStreamingSupported": true
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": false
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": true,
+            "inferenceTypesSupported": [
+                "ON_DEMAND"
+            ],
+            "inputModalities": [
+                "TEXT"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": false
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/meta.llama3-70b-instruct-v1:0",
+            "modelFamily": null,
+            "modelId": "meta.llama3-70b-instruct-v1:0",
+            "modelLifecycle": {
+                "status": "ACTIVE"
+            },
+            "modelName": "Llama 3 70B Instruct",
+            "outputModalities": [
+                "TEXT"
+            ],
+            "providerName": "Meta",
+            "responseStreamingSupported": true
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": false
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": true,
+            "inferenceTypesSupported": [
+                "INFERENCE_PROFILE"
+            ],
+            "inputModalities": [
+                "TEXT"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": true
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/meta.llama3-1-8b-instruct-v1:0",
+            "modelFamily": null,
+            "modelId": "meta.llama3-1-8b-instruct-v1:0",
+            "modelLifecycle": {
+                "status": "ACTIVE"
+            },
+            "modelName": "Llama 3.1 8B Instruct",
+            "outputModalities": [
+                "TEXT"
+            ],
+            "providerName": "Meta",
+            "responseStreamingSupported": true
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": false
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": true,
+            "inferenceTypesSupported": [
+                "INFERENCE_PROFILE"
+            ],
+            "inputModalities": [
+                "TEXT"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": true
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/meta.llama3-1-70b-instruct-v1:0",
+            "modelFamily": null,
+            "modelId": "meta.llama3-1-70b-instruct-v1:0",
+            "modelLifecycle": {
+                "status": "ACTIVE"
+            },
+            "modelName": "Llama 3.1 70B Instruct",
+            "outputModalities": [
+                "TEXT"
+            ],
+            "providerName": "Meta",
+            "responseStreamingSupported": true
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": false
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": true,
+            "inferenceTypesSupported": [
+                "INFERENCE_PROFILE"
+            ],
+            "inputModalities": [
+                "TEXT",
+                "IMAGE"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": true
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/meta.llama3-2-11b-instruct-v1:0",
+            "modelFamily": null,
+            "modelId": "meta.llama3-2-11b-instruct-v1:0",
+            "modelLifecycle": {
+                "status": "ACTIVE"
+            },
+            "modelName": "Llama 3.2 11B Instruct",
+            "outputModalities": [
+                "TEXT"
+            ],
+            "providerName": "Meta",
+            "responseStreamingSupported": true
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": false
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": true,
+            "inferenceTypesSupported": [
+                "INFERENCE_PROFILE"
+            ],
+            "inputModalities": [
+                "TEXT",
+                "IMAGE"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": true
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/meta.llama3-2-90b-instruct-v1:0",
+            "modelFamily": null,
+            "modelId": "meta.llama3-2-90b-instruct-v1:0",
+            "modelLifecycle": {
+                "status": "ACTIVE"
+            },
+            "modelName": "Llama 3.2 90B Instruct",
+            "outputModalities": [
+                "TEXT"
+            ],
+            "providerName": "Meta",
+            "responseStreamingSupported": true
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": false
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": true,
+            "inferenceTypesSupported": [
+                "INFERENCE_PROFILE"
+            ],
+            "inputModalities": [
+                "TEXT"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": false
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/meta.llama3-2-1b-instruct-v1:0",
+            "modelFamily": null,
+            "modelId": "meta.llama3-2-1b-instruct-v1:0",
+            "modelLifecycle": {
+                "status": "ACTIVE"
+            },
+            "modelName": "Llama 3.2 1B Instruct",
+            "outputModalities": [
+                "TEXT"
+            ],
+            "providerName": "Meta",
+            "responseStreamingSupported": true
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": false
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": true,
+            "inferenceTypesSupported": [
+                "INFERENCE_PROFILE"
+            ],
+            "inputModalities": [
+                "TEXT"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": false
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/meta.llama3-2-3b-instruct-v1:0",
+            "modelFamily": null,
+            "modelId": "meta.llama3-2-3b-instruct-v1:0",
+            "modelLifecycle": {
+                "status": "ACTIVE"
+            },
+            "modelName": "Llama 3.2 3B Instruct",
+            "outputModalities": [
+                "TEXT"
+            ],
+            "providerName": "Meta",
+            "responseStreamingSupported": true
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": false
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": true,
+            "inferenceTypesSupported": [
+                "INFERENCE_PROFILE"
+            ],
+            "inputModalities": [
+                "TEXT"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": true
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/meta.llama3-3-70b-instruct-v1:0",
+            "modelFamily": null,
+            "modelId": "meta.llama3-3-70b-instruct-v1:0",
+            "modelLifecycle": {
+                "status": "ACTIVE"
+            },
+            "modelName": "Llama 3.3 70B Instruct",
+            "outputModalities": [
+                "TEXT"
+            ],
+            "providerName": "Meta",
+            "responseStreamingSupported": true
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": false
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": true,
+            "inferenceTypesSupported": [
+                "INFERENCE_PROFILE"
+            ],
+            "inputModalities": [
+                "TEXT",
+                "IMAGE"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": false
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/meta.llama4-scout-17b-instruct-v1:0",
+            "modelFamily": null,
+            "modelId": "meta.llama4-scout-17b-instruct-v1:0",
+            "modelLifecycle": {
+                "status": "ACTIVE"
+            },
+            "modelName": "Llama 4 Scout 17B Instruct",
+            "outputModalities": [
+                "TEXT"
+            ],
+            "providerName": "Meta",
+            "responseStreamingSupported": true
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": false
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": true,
+            "inferenceTypesSupported": [
+                "INFERENCE_PROFILE"
+            ],
+            "inputModalities": [
+                "TEXT",
+                "IMAGE"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": false
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/meta.llama4-maverick-17b-instruct-v1:0",
+            "modelFamily": null,
+            "modelId": "meta.llama4-maverick-17b-instruct-v1:0",
+            "modelLifecycle": {
+                "status": "ACTIVE"
+            },
+            "modelName": "Llama 4 Maverick 17B Instruct",
+            "outputModalities": [
+                "TEXT"
+            ],
+            "providerName": "Meta",
+            "responseStreamingSupported": true
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": false
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": true,
+            "inferenceTypesSupported": [
+                "ON_DEMAND"
+            ],
+            "inputModalities": [
+                "TEXT"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": false
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/mistral.mistral-7b-instruct-v0:2",
+            "modelFamily": null,
+            "modelId": "mistral.mistral-7b-instruct-v0:2",
+            "modelLifecycle": {
+                "status": "ACTIVE"
+            },
+            "modelName": "Mistral 7B Instruct",
+            "outputModalities": [
+                "TEXT"
+            ],
+            "providerName": "Mistral AI",
+            "responseStreamingSupported": true
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": false
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": true,
+            "inferenceTypesSupported": [
+                "ON_DEMAND"
+            ],
+            "inputModalities": [
+                "TEXT"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": false
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/mistral.mixtral-8x7b-instruct-v0:1",
+            "modelFamily": null,
+            "modelId": "mistral.mixtral-8x7b-instruct-v0:1",
+            "modelLifecycle": {
+                "status": "ACTIVE"
+            },
+            "modelName": "Mixtral 8x7B Instruct",
+            "outputModalities": [
+                "TEXT"
+            ],
+            "providerName": "Mistral AI",
+            "responseStreamingSupported": true
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": false
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": true,
+            "inferenceTypesSupported": [
+                "ON_DEMAND"
+            ],
+            "inputModalities": [
+                "TEXT"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": false
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/mistral.mistral-large-2402-v1:0",
+            "modelFamily": null,
+            "modelId": "mistral.mistral-large-2402-v1:0",
+            "modelLifecycle": {
+                "status": "ACTIVE"
+            },
+            "modelName": "Mistral Large (24.02)",
+            "outputModalities": [
+                "TEXT"
+            ],
+            "providerName": "Mistral AI",
+            "responseStreamingSupported": true
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": false
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": true,
+            "inferenceTypesSupported": [
+                "ON_DEMAND"
+            ],
+            "inputModalities": [
+                "TEXT"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": false
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/mistral.mistral-small-2402-v1:0",
+            "modelFamily": null,
+            "modelId": "mistral.mistral-small-2402-v1:0",
+            "modelLifecycle": {
+                "status": "ACTIVE"
+            },
+            "modelName": "Mistral Small (24.02)",
+            "outputModalities": [
+                "TEXT"
+            ],
+            "providerName": "Mistral AI",
+            "responseStreamingSupported": true
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": false
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": true,
+            "inferenceTypesSupported": [
+                "INFERENCE_PROFILE"
+            ],
+            "inputModalities": [
+                "TEXT",
+                "IMAGE"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": false
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/mistral.pixtral-large-2502-v1:0",
+            "modelFamily": null,
+            "modelId": "mistral.pixtral-large-2502-v1:0",
+            "modelLifecycle": {
+                "status": "ACTIVE"
+            },
+            "modelName": "Pixtral Large (25.02)",
+            "outputModalities": [
+                "TEXT"
+            ],
+            "providerName": "Mistral AI",
+            "responseStreamingSupported": true
+        },
+        {
+            "batchSupported": null,
+            "consoleIDEMetadata": null,
+            "converse": null,
+            "customizationsSupported": [],
+            "description": null,
+            "explicitPromptCaching": {
+                "isSupported": false
+            },
+            "featuresSupported": null,
+            "guardrailsSupported": false,
+            "inferenceTypesSupported": [
+                "ON_DEMAND"
+            ],
+            "inputModalities": [
+                "TEXT",
+                "IMAGE",
+                "SPEECH",
+                "VIDEO"
+            ],
+            "intelligentPromptRouting": {
+                "isSupported": false
+            },
+            "latencyOptimizationSupported": null,
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/twelvelabs.marengo-embed-2-7-v1:0",
+            "modelFamily": null,
+            "modelId": "twelvelabs.marengo-embed-2-7-v1:0",
+            "modelLifecycle": {
+                "status": "ACTIVE"
+            },
+            "modelName": "Marengo Embed v2.7",
+            "outputModalities": [
+                "EMBEDDING"
+            ],
+            "providerName": "TwelveLabs",
+            "responseStreamingSupported": false
+        }
+    ]
+}

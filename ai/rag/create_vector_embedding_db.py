@@ -34,7 +34,7 @@ def save_to_chroma(chunks: list[Document]):
 
     db = Chroma.from_documents(
         chunks,
-        embedding=OpenAIEmbeddings(api_key=env.openai_api_key),
+        embedding=OpenAIEmbeddings(model="text-embedding-3-large", api_key=env.openai_api_key),
         persist_directory=env.chroma_path,
     )
     logger.info(f"Saved {len(chunks)} chunks to {env.chroma_path}")

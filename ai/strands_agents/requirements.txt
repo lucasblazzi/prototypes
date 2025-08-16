@@ -1,0 +1,8 @@
+strands-agents==1.4.0
+strands-agents-tools==0.2.3
+boto3==1.40.10
+botocore==1.40.10
+frontmatter==3.0.8
+matplotlib==3.10.5
+networkx==3.5
+diagrams==0.24.4

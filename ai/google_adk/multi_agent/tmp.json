@@ -1,0 +1,159 @@
+[
+  {
+    "content": {
+      "parts": [
+        {
+          "videoMetadata": null,
+          "thought": null,
+          "inlineData": null,
+          "fileData": null,
+          "thoughtSignature": null,
+          "codeExecutionResult": null,
+          "executableCode": null,
+          "functionCall": {
+            "id": "adk-a4bc1698-dd23-4d6f-9b3f-e9b627cbe3c5",
+            "args": { "name": "user" },
+            "name": "say_hello"
+          },
+          "functionResponse": null,
+          "text": null
+        }
+      ],
+      "role": "model"
+    },
+    "groundingMetadata": null,
+    "partial": null,
+    "turnComplete": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "interrupted": null,
+    "customMetadata": null,
+    "usageMetadata": {
+      "cacheTokensDetails": null,
+      "cachedContentTokenCount": null,
+      "candidatesTokenCount": 5,
+      "candidatesTokensDetails": [{ "modality": "TEXT", "tokenCount": 5 }],
+      "promptTokenCount": 447,
+      "promptTokensDetails": [{ "modality": "TEXT", "tokenCount": 447 }],
+      "thoughtsTokenCount": null,
+      "toolUsePromptTokenCount": null,
+      "toolUsePromptTokensDetails": null,
+      "totalTokenCount": 452,
+      "trafficType": null
+    },
+    "invocationId": "e-76050230-d76a-4835-8b7e-8b672765f377",
+    "author": "PWCoordinator",
+    "actions": {
+      "skipSummarization": null,
+      "stateDelta": {},
+      "artifactDelta": {},
+      "transferToAgent": null,
+      "escalate": null,
+      "requestedAuthConfigs": {}
+    },
+    "longRunningToolIds": [],
+    "branch": null,
+    "id": "e4c6bb28-6cfc-427a-946c-fda9680401eb",
+    "timestamp": 1754527856.092277
+  },
+  {
+    "content": {
+      "parts": [
+        {
+          "videoMetadata": null,
+          "thought": null,
+          "inlineData": null,
+          "fileData": null,
+          "thoughtSignature": null,
+          "codeExecutionResult": null,
+          "executableCode": null,
+          "functionCall": null,
+          "functionResponse": {
+            "willContinue": null,
+            "scheduling": null,
+            "id": "adk-a4bc1698-dd23-4d6f-9b3f-e9b627cbe3c5",
+            "name": "say_hello",
+            "response": { "result": "Hello, user! How can I help you today?" }
+          },
+          "text": null
+        }
+      ],
+      "role": "user"
+    },
+    "groundingMetadata": null,
+    "partial": null,
+    "turnComplete": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "interrupted": null,
+    "customMetadata": null,
+    "usageMetadata": null,
+    "invocationId": "e-76050230-d76a-4835-8b7e-8b672765f377",
+    "author": "PWCoordinator",
+    "actions": {
+      "skipSummarization": null,
+      "stateDelta": {},
+      "artifactDelta": {},
+      "transferToAgent": null,
+      "escalate": null,
+      "requestedAuthConfigs": {}
+    },
+    "longRunningToolIds": null,
+    "branch": null,
+    "id": "1c9d1185-80cd-4a01-ae78-691f2b406541",
+    "timestamp": 1754527857.211286
+  },
+  {
+    "content": {
+      "parts": [
+        {
+          "videoMetadata": null,
+          "thought": null,
+          "inlineData": null,
+          "fileData": null,
+          "thoughtSignature": null,
+          "codeExecutionResult": null,
+          "executableCode": null,
+          "functionCall": null,
+          "functionResponse": null,
+          "text": "Hello, user! How can I help you today?\n"
+        }
+      ],
+      "role": "model"
+    },
+    "groundingMetadata": null,
+    "partial": null,
+    "turnComplete": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "interrupted": null,
+    "customMetadata": null,
+    "usageMetadata": {
+      "cacheTokensDetails": null,
+      "cachedContentTokenCount": null,
+      "candidatesTokenCount": 12,
+      "candidatesTokensDetails": [{ "modality": "TEXT", "tokenCount": 12 }],
+      "promptTokenCount": 467,
+      "promptTokensDetails": [{ "modality": "TEXT", "tokenCount": 467 }],
+      "thoughtsTokenCount": null,
+      "toolUsePromptTokenCount": null,
+      "toolUsePromptTokensDetails": null,
+      "totalTokenCount": 479,
+      "trafficType": null
+    },
+    "invocationId": "e-76050230-d76a-4835-8b7e-8b672765f377",
+    "author": "PWCoordinator",
+    "actions": {
+      "skipSummarization": null,
+      "stateDelta": {},
+      "artifactDelta": {},
+      "transferToAgent": null,
+      "escalate": null,
+      "requestedAuthConfigs": {}
+    },
+    "longRunningToolIds": null,
+    "branch": null,
+    "id": "4c17cca1-ae6e-4e35-a79b-b637535667f8",
+    "timestamp": 1754527857.212291
+  }
+]

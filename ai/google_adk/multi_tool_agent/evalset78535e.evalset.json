@@ -1,0 +1,153 @@
+{
+  "eval_set_id": "evalset78535e",
+  "name": "evalset78535e",
+  "description": null,
+  "eval_cases": [
+    {
+      "eval_id": "case629361",
+      "conversation": [
+        {
+          "invocation_id": "e-b99f132d-b8e9-4091-aaa2-ca959bdfb723",
+          "user_content": {
+            "parts": [
+              {
+                "video_metadata": null,
+                "thought": null,
+                "inline_data": null,
+                "file_data": null,
+                "thought_signature": null,
+                "code_execution_result": null,
+                "executable_code": null,
+                "function_call": null,
+                "function_response": null,
+                "text": "hello"
+              }
+            ],
+            "role": "user"
+          },
+          "final_response": {
+            "parts": [
+              {
+                "video_metadata": null,
+                "thought": null,
+                "inline_data": null,
+                "file_data": null,
+                "thought_signature": null,
+                "code_execution_result": null,
+                "executable_code": null,
+                "function_call": null,
+                "function_response": null,
+                "text": "Hello! How can I help you today? I can provide you with the current time and weather information for a specific city.\n"
+              }
+            ],
+            "role": null
+          },
+          "intermediate_data": {
+            "tool_uses": [],
+            "intermediate_responses": []
+          },
+          "creation_timestamp": 1753960815.730526
+        },
+        {
+          "invocation_id": "e-228a3da2-b480-436e-8ac3-31fa22a083b4",
+          "user_content": {
+            "parts": [
+              {
+                "video_metadata": null,
+                "thought": null,
+                "inline_data": null,
+                "file_data": null,
+                "thought_signature": null,
+                "code_execution_result": null,
+                "executable_code": null,
+                "function_call": null,
+                "function_response": null,
+                "text": "what time is it?"
+              }
+            ],
+            "role": "user"
+          },
+          "final_response": {
+            "parts": [
+              {
+                "video_metadata": null,
+                "thought": null,
+                "inline_data": null,
+                "file_data": null,
+                "thought_signature": null,
+                "code_execution_result": null,
+                "executable_code": null,
+                "function_call": null,
+                "function_response": null,
+                "text": "Could you please specify which city you'd like me to provide the time for?\n"
+              }
+            ],
+            "role": null
+          },
+          "intermediate_data": {
+            "tool_uses": [],
+            "intermediate_responses": []
+          },
+          "creation_timestamp": 1753960832.321196
+        },
+        {
+          "invocation_id": "e-caaa5da0-a2ee-4361-b856-474e6bfa7000",
+          "user_content": {
+            "parts": [
+              {
+                "video_metadata": null,
+                "thought": null,
+                "inline_data": null,
+                "file_data": null,
+                "thought_signature": null,
+                "code_execution_result": null,
+                "executable_code": null,
+                "function_call": null,
+                "function_response": null,
+                "text": "New York"
+              }
+            ],
+            "role": "user"
+          },
+          "final_response": {
+            "parts": [
+              {
+                "video_metadata": null,
+                "thought": null,
+                "inline_data": null,
+                "file_data": null,
+                "thought_signature": null,
+                "code_execution_result": null,
+                "executable_code": null,
+                "function_call": null,
+                "function_response": null,
+                "text": "The current time in New York is 2025-07-31 07:20:40 EDT-0400.\n"
+              }
+            ],
+            "role": null
+          },
+          "intermediate_data": {
+            "tool_uses": [
+              {
+                "id": "adk-a23dd9e4-d912-4750-a9c5-a27c51f3563f",
+                "args": {
+                  "city": "New York"
+                },
+                "name": "get_current_time"
+              }
+            ],
+            "intermediate_responses": []
+          },
+          "creation_timestamp": 1753960838.8293
+        }
+      ],
+      "session_input": {
+        "app_name": "multi_tool_agent",
+        "user_id": "user",
+        "state": {}
+      },
+      "creation_timestamp": 1753961225.4290059
+    }
+  ],
+  "creation_timestamp": 1753961217.8945982
+}

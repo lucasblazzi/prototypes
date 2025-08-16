@@ -1,3 +1,6 @@
+
+https://docs.streamlit.io/develop/tutorials/chat-and-llm-apps/build-conversational-apps#build-a-chatgpt-like-app
+
 import streamlit as st
 
 # Set page title and layout
