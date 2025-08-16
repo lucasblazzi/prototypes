@@ -14,11 +14,6 @@ from google.genai import types
 from google.adk.tools.transfer_to_agent_tool import transfer_to_agent
 
 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyDeOoiah6xaWRf-7uVGruD8TyH-Xqg3QA0"
-
-# USAR TOKEN DO USUARIO PARA AS TOOLS API -> CONTROLE DE ACESSO
-
-
 def say_hello(name: str):
     """
     Say hello

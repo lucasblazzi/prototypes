@@ -35,6 +35,11 @@ class TeamAgent:
         agent = Agent(
             model=self.model,
             tools=self.tools,
+                # - String tool names (e.g., "retrieve")
+                # - File paths (e.g., "/path/to/tool.py")
+                # - Imported Python modules (e.g., from strands_tools import current_time)
+                # - Dictionaries with name/path keys (e.g., {"name": "tool_name", "path": "/path/to/tool.py"})
+                # - Functions decorated with `@strands.tool` decorator.
             system_prompt=(
                 f"You are the {self.name}.\n\n"
                 f"Context:\n{self.team_context}\n\n"
